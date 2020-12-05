@@ -1,4 +1,4 @@
-# python-project
+#Beginner_python_project
 
 Guess The Number:-
 Write a programme where the computer randomly generates a number between 0 and 20. 
