@@ -1,11 +1,15 @@
 import random
 
 numberofguesses = 0
+
 print("Hello! what is your name ?")
 name = input(print("Hello! what is your name ?"))
+
 number = random.randint(1,20)
+
 print(" 1. You can guess only one time. Mrs/Ms", name)
 print("2. You can guess number between 1 to 20. Mrs/Ms", name)
+
 while numberofguesses < 6 :
     guess = input("Guess the number ")
     guess = int(guess)
